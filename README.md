@@ -20,18 +20,22 @@
  - utils/: Utility classes for logging, data generation, and response validation
 
 3. Notable Improvements:
+   
  a. Robust Base Framework:
   - Centralized request specification setup
   - Common validation methods with Allure step annotations
   - Automated logging for failed requests/responses
+    
  b. Enhanced Logging and Reporting:
   - Custom TestLogger implementation
   - Allure integration for detailed test reporting
   - Step-by-step test execution documentation
+    
  c. Data Management:
   - Separate configuration management
   - Data model encapsulation
   - Test data generation utilities
+    
  d. Validation and Assertions:
   - Dedicated ResponseValidator for response checking
   - Reusable validation methods
