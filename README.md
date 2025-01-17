@@ -1,5 +1,5 @@
 # automation-framework-API
- This is an Automatation Framework using Java and RestAssured for API testing.
+ This is an Automation Framework using Java and RestAssured for API testing.
  https://api.practicesoftwaretesting.com/api/documentation#/
 
  Here's a summary of the automation framework structure and its key improvements:
