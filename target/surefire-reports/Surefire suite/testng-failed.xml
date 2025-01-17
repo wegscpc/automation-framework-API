@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.api.testing.tests.ProductsTest">
+        <methods>
+          <include name="filterProductsByBrand"/>
+          <include name="filterProductsByCategory"/>
+          <include name="baseSetup"/>
+          <include name="getAllProducts"/>
+          <include name="createProduct"/>
+          <include name="searchProducts"/>
+          <include name="setup"/>
+          <include name="getProductById"/>
+        </methods>
+      </class> <!-- com.api.testing.tests.ProductsTest -->
+      <class name="com.api.testing.tests.UserAddressTest">
+        <methods>
+          <include name="getAllAddresses"/>
+          <include name="updateAddress"/>
+          <include name="baseSetup"/>
+          <include name="getAddressById"/>
+          <include name="createAddress"/>
+          <include name="setup"/>
+          <include name="deleteAddress"/>
+        </methods>
+      </class> <!-- com.api.testing.tests.UserAddressTest -->
+      <class name="com.api.testing.tests.AuthenticationTest">
+        <methods>
+          <include name="loginWithEmptyCredentials"/>
+          <include name="registerUserWithInvalidEmail"/>
+          <include name="loginWithValidAdminCredentials"/>
+          <include name="baseSetup"/>
+          <include name="registerNewUser"/>
+          <include name="setup"/>
+          <include name="loginWithValidCustomerCredentials"/>
+          <include name="loginWithInvalidCredentials"/>
+          <include name="registerUserWithExistingEmail"/>
+          <include name="registerUserWithShortPassword"/>
+        </methods>
+      </class> <!-- com.api.testing.tests.AuthenticationTest -->
+      <class name="com.api.testing.tests.OrdersTest">
+        <methods>
+          <include name="getAllOrders"/>
+          <include name="baseSetup"/>
+          <include name="updateOrderStatus"/>
+          <include name="setup"/>
+          <include name="getOrderById"/>
+          <include name="deleteOrder"/>
+          <include name="createOrder"/>
+        </methods>
+      </class> <!-- com.api.testing.tests.OrdersTest -->
+      <class name="com.api.testing.tests.CategoriesTest">
+        <methods>
+          <include name="getCategoryById"/>
+          <include name="baseSetup"/>
+          <include name="createCategory"/>
+          <include name="setup"/>
+          <include name="getAllCategories"/>
+        </methods>
+      </class> <!-- com.api.testing.tests.CategoriesTest -->
+      <class name="com.api.testing.tests.BrandsTest">
+        <methods>
+          <include name="getAllBrands"/>
+          <include name="setup"/>
+          <include name="baseSetup"/>
+          <include name="getBrandById"/>
+          <include name="createBrand"/>
+        </methods>
+      </class> <!-- com.api.testing.tests.BrandsTest -->
+      <class name="com.api.testing.tests.CartTest">
+        <methods>
+          <include name="baseSetup"/>
+          <include name="setup"/>
+          <include name="clearCart"/>
+          <include name="addToCart"/>
+          <include name="getCart"/>
+          <include name="deleteCartItem"/>
+          <include name="updateCartItem"/>
+        </methods>
+      </class> <!-- com.api.testing.tests.CartTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
